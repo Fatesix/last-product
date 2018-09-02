@@ -25,6 +25,7 @@ public class TestController {
     @RequestMapping("/jsp")
     public String testJsp() {
         System.out.println("github");
+        System.out.println("test");
         return "index";
     }
 
